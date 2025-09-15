@@ -113,7 +113,13 @@ body {
   color: #0f172a;
 }
 
+.loader {
+  display: none;
+}
 
+.loader.is-visible {
+  display: inline-block;
+}
 .loader {
   width: 52px;
   height: 52px;
